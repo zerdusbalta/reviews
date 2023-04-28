@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body, #root, main{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    background-color: #f1f5f8;
+  }
+  main{
+    padding: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  h3{
+    font-size: 3.5rem;
+  }
+  section{
+    width: 35rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
+    border-radius: 1%;
+    margin: 0 auto;
+  }
+  
+  article img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  h4 {
+    color: black;
+    font-weight: 600;
+  }
+  
+  .blue{
+    color: dodgerblue;
+  }
+  
+  span{
+    color: dodgerblue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  article button{
+    background-color: rgba(30, 143, 255, 0.3);
+    color: dodgerblue;
+    border: none;
+    cursor: pointer;
+  }
+  .mg-b{
+    margin-bottom: 1rem;
+  }
+  hr{
+    width: 50%;
+    height: 4px;
+    background-color: dodgerblue;
+    color: dodgerblue;
+    margin: 0 auto;
+  }
